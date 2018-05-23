@@ -5,52 +5,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Code Review 6</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" integrity="sha256-0vBSIAi/8FxkNOSKyPEfdGQzFDak1dlqFKBYqBp1yC4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 </head>
 
 <body>
-    <div class="top">
-        <header>
-            <h1>My Media Collection</h1>
-        </header>
-    </div>
-    <br>
-    <!-- Nav Bar-->
-    <div class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-        </ul>
-    </div>
-        <div class="container-fluid">
 
-    <h2>Vinyl</h2>
-    <div class="row">
-        <div class="col-lg-2 col-md-6 col-xs-12" id="vinyl">
-            <p></p>
-        </div>
-    <h2>Books</h2>
-        <div class="row">
-        <div class="col-lg-2 col-md-6 col-xs-12" id="books">
-        <p></p>
-        </div>
-        </div>
-    </div>
-    <h2>Comics</h2>
-    <div class="row">
-    <div class="col-lg-2 col-md-6 col-xs-12" id="comics">
-        <p></p>
-    </div>
-    </div>
-    <h2>TV Series</h2>
-    <div class="row"></div>
-    <div class="col-lg-2 col-md-6 col-xs-12" id="series">
-        <p></p>
-    </div>
-    </div>
-    </div>
+<script src="js/script.js"></script>
+
+    <section id="add" class="content-section text-center">
+        <div class="container">
+            <h2>Add Medium</h2>
+            <div class="col-md-6 col-md-offset-3">
+                <form action="" method="" accept-charset="utf-8">
+                    <label>Title</label>
+                    <input class="form-control" type="" name="title" value="">
+                    <label>Type</label>
+                    <fieldset class="">
+                        <input type="radio" id="vinyls" class="" name="mediaType" value="vinyl">
+                        <label class="" for="vinyl">Vinyl</label>
+                        <br>
+                        <input type="radio" id="books" name="mediaType" value="book">
+                        <label for="book">Book</label>
+                        <br>
+                        <input type="radio" id="graphicnovel" name="mediaType" value="comic">
+                        <label for="comic">Graphic Novel</label>
+                        <br>
+                        <input type="radio" id="tvseries" name="mediaType" value="series">
+                        <label for="series">TV Series</label>
+                        <br>
+                    </fieldset>
+                    <label>Author</label>
+                    <input class="form-control" type="" name="title" value="">
+                    <label>Genre</label>
+                    <input class="form-control" type="" name="title" value="">
+                    <label>Publisher</label>
+                    <input class="form-control" type="" name="title" value="">
+                    <label>Short Description</label>
+                    <input class="form-control" type="" name="title" value=""></input>
+                    <br>
+                    
+                    <button class="btn btn-info btn-lg" type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
 </body>
 
 </html>
