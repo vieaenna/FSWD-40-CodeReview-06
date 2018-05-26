@@ -135,8 +135,8 @@ for (var i = 0; i < vinyl.length; i++) {
 
     // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
-    document.write("<div class=\"popup\">");
-    document.write("<label>"+"Details"+"</label>");
+    document.write("<div class=\"details\">");
+    document.write("<button>"+"Details"+"</button>");
     document.write("</div>");
     document.write("</div>");
     document.write("</div>");
@@ -163,8 +163,8 @@ for (var i = 0; i < books.length; i++) {
 
     // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
-    document.write("<div class=\"popup\">");
-    document.write("<label>"+"Details"+"</label>");
+    document.write("<div class=\"details\">");
+    document.write("<button>"+"Details"+"</button>");
     document.write("</div>");
     document.write("</div>");
     document.write("</div>");
@@ -193,8 +193,8 @@ for (var i = 0; i < comics.length; i++) {
 
     // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
-    document.write("<div class=\"popup\">");
-    document.write("<label>"+"Details"+"</label>");
+    document.write("<div class=\"details\">");
+    document.write("<button>"+"Details"+"</button>");
     document.write("</div>");
     document.write("</div>");
     document.write("</div>");
@@ -222,8 +222,8 @@ for (var i = 0; i < series.length; i++) {
 
     // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
-    document.write("<div class=\"popup\">");
-    document.write("<label>"+"Details"+"</label>");
+    document.write("<div class=\"details\">");
+    document.write("<button>"+"Details"+"</>");
     document.write("</div>");
     document.write("</div>");
     document.write("</div>");
