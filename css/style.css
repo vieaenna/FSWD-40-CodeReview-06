@@ -1,15 +1,8 @@
-#one {
-	background-color: red; 
+
+.container {
+	background-color: lightgrey;
 }
 
-#two {
-	background-color: yellow; 
-}
-
-#three {
-	background-color: grey; 
-}
-
-p {
-	background-color: white; 
+img {
+	width: 100%;
 }

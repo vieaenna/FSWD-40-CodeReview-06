@@ -108,7 +108,7 @@ var vinyl =[
 document.write("<div class = \"container\">");
 document.write("<div class=\"row\">");
 document.write("<div id=\"Title\" class=\"col-md-12\">");
-document.write("<h1 id=\"Anna\">" + "Anna's Mediathek" + "<h1>");
+document.write("<h1 id=\"Anna\" >" + "Anna's Mediathek" + "<h1>");
 document.write("</div>");
 document.write("</div>");
 
@@ -175,7 +175,7 @@ document.write("</div>");
 // COMICS
 document.write("<h1>" + "Comics" + "</h1>");
 document.write("<hr>");
-document.write("<div id=\"mus\" class=\"row\">");
+document.write("<div id=\"com\" class=\"row\">");
 
 for (var i = 0; i < comics.length; i++) {
 
@@ -201,10 +201,12 @@ for (var i = 0; i < comics.length; i++) {
 
 }
 
+document.write("</div>");
+
 // TV SERIES
 document.write("<h1>" + "TV Series" + "</h1>");
 document.write("<hr>");
-document.write("<div id=\"mus\" class=\"row\">");
+document.write("<div id=\"tv\" class=\"row\">");
 
 for (var i = 0; i < series.length; i++) {
 
@@ -229,10 +231,5 @@ for (var i = 0; i < series.length; i++) {
     document.write("</div>");
 
 }
-
-
 document.write("</div>");
-
-document.write("</div>");
-
 
